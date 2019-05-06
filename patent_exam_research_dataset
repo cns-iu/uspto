@@ -11,12 +11,6 @@ uspto=# select count(*) from perd_application_data;
  11125755
 (1 row)
 
-uspto=# select count(*) from perd_application_data;
-  count
-----------
- 11125755
-(1 row)
-
 uspto=# select count(*) from perd_continuity_children;
   count
 ---------
