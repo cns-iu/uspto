@@ -1,0 +1,36 @@
+
+select count(*) from pad_assignee;
+  count
+---------
+ 7972573
+(1 row)
+
+uspto=# select count(*) from pad_assignment;
+  count
+---------
+ 7697840
+(1 row)
+
+uspto=# select count(*) from pad_assignment_conveyance;
+  count
+---------
+ 7697840
+(1 row)
+
+uspto=# select count(*) from pad_assignor;
+  count
+----------
+ 17941397
+(1 row)
+
+uspto=# select count(*) from pad_documentid;
+  count
+----------
+ 13084209
+(1 row)
+
+uspto=# select count(*) from pad_documentid_admin;
+  count
+----------
+ 13034433
+(1 row)
