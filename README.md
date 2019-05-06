@@ -13,3 +13,6 @@ This is the extract of the ipg (xml) files.  There were 746 xml files.  Each was
 The config file for the parser is include as is the initial (bare) schema.
 
 Note: some changes over the years 2005 to 2019, changed the xml and adjustments to the database may be needed to better relect information (a follow on project).
+pgft => patent_grant_full_text
+pad => patent_assignment_dataset
+perd => patent_exam_research_data
