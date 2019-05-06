@@ -1,0 +1,72 @@
+
+select count(*) from perd_all_inventors;
+  count
+----------
+ 32804370
+(1 row)
+
+uspto=# select count(*) from perd_application_data;
+  count
+----------
+ 11125755
+(1 row)
+
+uspto=# select count(*) from perd_application_data;
+  count
+----------
+ 11125755
+(1 row)
+
+uspto=# select count(*) from perd_continuity_children;
+  count
+---------
+ 6540050
+(1 row)
+
+uspto=# select count(*) from perd_continuity_parents;
+  count
+---------
+ 7824363
+(1 row)
+
+uspto=# select count(*) from perd_correspondence_address;
+  count
+----------
+ 10616102
+(1 row)
+
+uspto=# select count(*) from perd_event_codes;
+ count
+-------
+  2082
+(1 row)
+
+uspto=# select count(*) from perd_foreign_priority;
+  count
+---------
+ 4464628
+(1 row)
+
+uspto=# select count(*) from perd_pat_term_adj;
+   count
+-----------
+ 185889529
+(1 row)
+
+uspto=# select count(*) from perd_pta_summary;
+  count
+---------
+ 3706329
+(1 row)
+
+uspto=# select count(*) from perd_status_codes;
+ count
+-------
+   236
+(1 row)
+
+uspto=# select count(*) from perd_transactions;
+   count
+-----------
+ 368571830
+(1 row)
